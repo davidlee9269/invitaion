@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="이주호 ♥ 박희주 결혼합니다" />
+  <meta property="og:description" content="2026년 5월 30일 토요일 오후 6시 30분" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="main.jpg" />
+
+  <title>이주호 ♥ 박희주</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600&family=Pretendard:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background:#fff;
+      color:#222;
+      overflow-x:hidden;
+      line-height:1.8;
+    }
+
+    .hero {
+      position:relative;
+      height:100vh;
+      overflow:hidden;
+    }
+
+    .hero img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    .hero::after {
+      content:'';
+      position:absolute;
+      inset:0;
+      background:linear-gradient(to top, rgba(0,0,0,0.45), transparent 45%);
+    }
+
+    .hero-text {
+      position:absolute;
+      bottom:12%;
+      left:50%;
+      transform:translateX(-50%);
+      text-align:center;
+      color:white;
+      z-index:2;
+      width:90%;
+    }
+
+    .hero-text h1 {
+      font-family:'Noto Serif KR', serif;
+      font-size:2.6rem;
+      margin-bottom:10px;
+      letter-spacing:2px;
+    }
+
+    .hero-text p {
+      font-size:1rem;
+    }
+
+    section {
+      padding:90px 24px;
+    }
+
+    .section-title {
+      text-align:center;
+      font-family:'Noto Serif KR', serif;
+      font-size:1.6rem;
+      margin-bottom:30px;
+    }
+
+    .message {
+      max-width:640px;
+      margin:0 auto;
+      text-align:center;
+      color:#555;
+      line-height:2.1;
+    }
+
+    .info-box {
+      max-width:680px;
+      margin:0 auto;
+      background:#fafafa;
+      border-radius:28px;
+      padding:42px 28px;
+      text-align:center;
+      box-shadow:0 10px 35px rgba(0,0,0,0.05);
+    }
+
+    .gallery {
+      display:grid;
+      gap:18px;
+      max-width:900px;
+      margin:0 auto;
+    }
+
+    .gallery img {
+      width:100%;
+      border-radius:24px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    .map-wrap {
+      overflow:hidden;
+      border-radius:24px;
+      max-width:760px;
+      margin:0 auto;
+      box-shadow:0 10px 35px rgba(0,0,0,0.06);
+    }
+
+    iframe {
+      width:100%;
+      height:360px;
+      border:none;
+    }
+
+    .map-buttons {
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:24px;
+    }
+
+    .map-buttons a {
+      text-decoration:none;
+      background:#222;
+      color:white;
+      padding:14px 22px;
+      border-radius:999px;
+      font-size:0.95rem;
+    }
+
+    .footer {
+      padding:80px 20px;
+      text-align:center;
+      color:#888;
+      font-size:0.95rem;
+    }
+
+    @media (min-width:768px) {
+      .gallery {
+        grid-template-columns:1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="hero">
+  <img src="main.jpg" alt="메인사진">
+
+  <div class="hero-text">
+    <h1>이주호 ♥ 박희주</h1>
+    <p>2026.05.30 SAT 6:30 PM</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">INVITATION</div>
+
+  <div class="message">
+    서로의 계절이 되어<br>
+    평생을 함께 걸어가려 합니다.<br><br>
+
+    소중한 분들을 모시고<br>
+    새로운 시작의 순간을 함께하고자 합니다.<br><br>
+
+    따뜻한 마음으로 자리해주시면 감사하겠습니다.
+  </div>
+</section>
+
+<section>
+  <div class="info-box">
+    <h2>Wedding Day</h2><br>
+
+    <p>2026년 5월 30일 토요일</p>
+    <p>오후 6시 30분</p><br>
+
+    <p><strong>까브테라스</strong></p>
+    <p>서울 강남구 강남대로156길 27 3층</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">GALLERY</div>
+
+  <div class="gallery">
+    <img src="main.jpg">
+    <img src="couple.jpg">
+    <img src="garden.jpg">
+    <img src="fin.jpg">
+  </div>
+</section>
+
+<section>
+  <div class="section-title">LOCATION</div>
+
+  <div class="map-wrap">
+    <iframe
+      src="https://maps.google.com/maps?q=%EA%B9%8C%EB%B8%8C%ED%85%8C%EB%9D%BC%EC%8A%A4&t=&z=16&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+  </div>
+
+  <div class="map-buttons">
+    <a href="https://map.naver.com/v5/search/까브테라스">네이버지도</a>
+    <a href="https://map.kakao.com/link/search/까브테라스">카카오맵</a>
+  </div>
+</section>
+
+<div class="footer">
+  이주호 ♥ 박희주의 결혼식에 초대합니다.
+</div>
+
+</body>
+</html>
